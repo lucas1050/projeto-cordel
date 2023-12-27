@@ -3,12 +3,12 @@
 
 @font-face {
     font-family: 'RubikBubbles';
-    src: url(/desafios/d012/fontes/RubikBubbles-Regular.ttf);
+    src: url(../fontes/RubikBubbles-Regular.ttf);
 }
 
 @font-face {
     font-family: 'Dancing';
-    src: url(/desafios/d012/fontes/DancingScript-VariableFont_wght.ttf);
+    src: url(../fontes/DancingScript-VariableFont_wght.ttf);
 }
 
 :root {
@@ -36,7 +36,6 @@ header {
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
-    font-family: var(--fonte3);
     font-weight: lighter;
     font-size: 10vw;
 }
@@ -68,6 +67,8 @@ section {
 
 section > p {
     padding-bottom: 2em;
+    font-family: var(--fonte3);
+    font-weight: lighter;
 }
 
 section.normal {
